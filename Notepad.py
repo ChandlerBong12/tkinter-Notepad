@@ -6,7 +6,7 @@ import os
 def newFile():
     global file
     root.title("untitled-file")
-    file =None
+    file = None
     TextArea.delete(1.0,END)
 
 
